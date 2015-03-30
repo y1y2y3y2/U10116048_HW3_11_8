@@ -80,4 +80,16 @@ public class Account {//º“¿¿ª»¶Ê
 	}
 		
 }
+/*Transacrion class*/
+class Transaction{
+	private Date date;//java .util.Date
+	private char type;
+	private double amount;
+	private double balance;
+	private String description;
+	Transaction(char type,double amount,double balance,String description){
+		
+	}
+	
+}
 
