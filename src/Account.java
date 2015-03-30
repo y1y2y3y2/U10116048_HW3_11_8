@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 
 public class Account {//模擬銀行
+	String name=" ";//客戶名子
 	Scanner keyin=new Scanner(System.in);//建立物件:Scanner
 	private int id=0;//帳號
 	private double balance=0;//餘額
@@ -15,6 +16,14 @@ public class Account {//模擬銀行
 		balance=0;
 		annualInterestRate=0;
 	}
+	/*新的contructor*/
+	public Account(String name ,int id ,double balance){
+		name="小明";
+		id=1234;
+		balance=10000000;
+	}
+	/**/
+	
 	//accessor method for id
 	public int getid(){
 		return id;
